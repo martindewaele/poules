@@ -9,7 +9,7 @@ void setup() {
 }
 
 //Boucle qui permet de lire toutes les 10 minutes la valeur renvoyée par la LDR
-//Si la valeur est inférieure à 300, le verrin se ferme, sinon il s'ouvre.
+//Si la valeur est supérieure à 300, le verrin s'ouvre, sinon il se ferme.
 
 void loop() {
   int lum = analogRead(A0);
